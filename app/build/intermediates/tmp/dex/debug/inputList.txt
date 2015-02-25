@@ -1,0 +1,8 @@
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\classes\debug
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-481d229791a75e88037561a8909962374f6e3abb.jar
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\places-api-client-1.0.0-b0a00bc3689f76d1e9f7578935f8459f045b3a75.jar
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-c03eed5267080226cf56f2d6f5923bad5d8bea89.jar
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\commons-codec-1.8-92fba20b0fb8d9360dd103a9ab0f3a50a3650f6b.jar
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\log4j-1.2.16-1e4decd772a0882aacb0dc91ca89d8f9ea57c824.jar
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\classes-a68636c4298880285fa4a39aca79eae574aa94e3.jar
+C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\classes-abf905d237794d29dd3fe13978bc0e15f0f721e5.jar

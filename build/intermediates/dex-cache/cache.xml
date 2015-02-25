@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-c03eed5267080226cf56f2d6f5923bad5d8bea89.jar" />
+    </item>
+    <item
+        jar="C:\Users\Manjinder singh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-481d229791a75e88037561a8909962374f6e3abb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Manjinder singh\.gradle\caches\modules-2\files-2.1\com.googlecode.places-api-client\places-api-client\1.0.0\84be48b763e1da747a48d12e6dcb983693b47856\places-api-client-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="84be48b763e1da747a48d12e6dcb983693b47856">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\places-api-client-1.0.0-b0a00bc3689f76d1e9f7578935f8459f045b3a75.jar" />
+    </item>
+    <item
+        jar="C:\Users\Manjinder singh\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.8\af3be3f74d25fc5163b54f56a0d394b462dafafd\commons-codec-1.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\commons-codec-1.8-92fba20b0fb8d9360dd103a9ab0f3a50a3650f6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\classes-abf905d237794d29dd3fe13978bc0e15f0f721e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\classes-a68636c4298880285fa4a39aca79eae574aa94e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Manjinder singh\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.16\7999a63bfccbc7c247a9aea10d83d4272bd492c6\log4j-1.2.16.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7999a63bfccbc7c247a9aea10d83d4272bd492c6">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\log4j-1.2.16-1e4decd772a0882aacb0dc91ca89d8f9ea57c824.jar" />
+    </item>
+
+</items>

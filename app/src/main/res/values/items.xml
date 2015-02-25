@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hello">
+        <item>India</item>
+        <item>Canada</item>
+        <item>USA</item>
+        <item>Pakistan</item>
+    </string-array>
+	<string-array name="states_i">
+		<item>Punjab</item>
+		<item>Haryana</item>
+	</string-array>
+	<string-array name="states_c">
+	    <item>Ontario</item>>
+	</string-array>
+	<string-array name="states_u">
+	    <item>California</item>>
+	</string-array>
+	<string-array name="states_p">
+	    <item>Sindh</item>>
+	</string-array>
+	<string-array name="color">
+	    <item>Red</item>
+	    <item >Green</item>
+	    <item >Blue</item>
+	    <item >Yellow</item>
+	</string-array>
+</resources>
