@@ -50,5 +50,12 @@
         sha1="7999a63bfccbc7c247a9aea10d83d4272bd492c6">
         <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\log4j-1.2.16-1e4decd772a0882aacb0dc91ca89d8f9ea57c824.jar" />
     </item>
+    <item
+        jar="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\exploded-aar\RadioSpinner\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b08c1bba4664052360ea56b75892b023c3332bc1">
+        <dex dex="C:\Users\Manjinder singh\AndroidStudioProjects\RadioSpinner\app\build\intermediates\pre-dexed\debug\classes-a3c1ce781cad8da4ced23c3a61b2c80050595254.jar" />
+    </item>
 
 </items>

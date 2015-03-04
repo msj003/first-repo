@@ -8,70 +8,74 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.astuetz.PagerSlidingTabStrip;
+
 
 public class ViewPagerDemoActivity extends FragmentActivity  {
 
     ViewPager viewPager;
     TabsPagerAdapter tabsPagerAdapter;
-
-    private String Tabs[]={"First","Second"};
+    PagerSlidingTabStrip tabs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pager_demo);
         viewPager=(ViewPager) findViewById(R.id.pager);
+        tabs=(PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabsPagerAdapter=new TabsPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(tabsPagerAdapter);
-        getActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        getActionBar().addTab(getActionBar().newTab().setText("First").setTabListener(new ActionBar.TabListener() {
-            @Override
-            public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-                viewPager.setCurrentItem(tab.getPosition());
-            }
+        tabs.setViewPager(viewPager);
 
-            @Override
-            public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-            }
-
-            @Override
-            public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-            }
-        }));
-        getActionBar().addTab(getActionBar().newTab().setText("Second").setTabListener(new ActionBar.TabListener() {
-            @Override
-            public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-                viewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-            }
-
-            @Override
-            public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-            }
-        }));
-        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-                getActionBar().setSelectedNavigationItem(position);
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
+////        getActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+////        getActionBar().addTab(getActionBar().newTab().setText("First").setTabListener(new ActionBar.TabListener() {
+////            @Override
+////            public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+////                viewPager.setCurrentItem(tab.getPosition());
+////            }
+////
+////            @Override
+////            public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+////
+////            }
+////
+////            @Override
+////            public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+////
+////            }
+////        }));
+////        getActionBar().addTab(getActionBar().newTab().setText("Second").setTabListener(new ActionBar.TabListener() {
+////            @Override
+////            public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+////                viewPager.setCurrentItem(tab.getPosition());
+////            }
+////
+////            @Override
+////            public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+////
+////            }
+////
+////            @Override
+////            public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+////
+////            }
+////        }));
+//        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+//            @Override
+//            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+//
+//            }
+//
+//            @Override
+//            public void onPageSelected(int position) {
+//                getActionBar().setSelectedNavigationItem(position);
+//            }
+//
+//            @Override
+//            public void onPageScrollStateChanged(int state) {
+//
+//            }
+//        });
     }
 
 
