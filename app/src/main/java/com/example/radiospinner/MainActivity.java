@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-	Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10,btn11,btn12,btn13,btn14,btn15,btn16;
+	Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10,btn11,btn12,btn13,btn14,btn15,btn16,btn17,btn18;
 	Animation animFadeIn;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
         btn14=(Button) findViewById(R.id.button14);
         btn15=(Button) findViewById(R.id.button15);
         btn16=(Button) findViewById(R.id.button16);
+        btn17=(Button) findViewById(R.id.button17);
+        btn18=(Button) findViewById(R.id.button18);
 		animFadeIn=AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
 	
 	}
@@ -172,6 +174,18 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,CameraPicture.class));
+            }
+        });
+        btn17.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,FragmentdDemoActivity.class));
+            }
+        });
+        btn18.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,ViewPagerDemoActivity.class));
             }
         });
 	}

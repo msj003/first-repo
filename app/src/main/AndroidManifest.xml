@@ -120,6 +120,14 @@
             android:name=".AutoTextActivity"
             android:label="@string/title_activity_auto_text" >
         </activity>
+        <activity
+            android:name=".FragmentdDemoActivity"
+            android:label="@string/title_activity_fragmentd_demo" >
+        </activity>
+        <activity
+            android:name=".ViewPagerDemoActivity"
+            android:label="@string/title_activity_view_pager_demo" >
+        </activity>
     </application>
 
 </manifest>

@@ -33,6 +33,11 @@
     <string name="btn14">Http</string>
     <string name="btn15">Maps</string>
     <string name="btn16">Camera</string>
+    <string name="btn17">Fragment Demo</string>
+    <string name="btn18">ViewPager Demo</string>
+    <string name="fragButton">Change Fragment</string>
     <string name="title_activity_camera_picture">CameraPicture</string>
     <string name="title_activity_auto_text">AutoTextActivity</string>
+    <string name="title_activity_fragmentd_demo">FragmentdDemoActivity</string>
+    <string name="title_activity_view_pager_demo">ViewPagerDemoActivity</string>
 </resources>
